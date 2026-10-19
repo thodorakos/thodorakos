@@ -1,7 +1,7 @@
-# ![Theodoros Nikaris: DevOps & backend development](assets/header.svg)
+# ![Theodoros Nikaris: DevOps & backend development](https://raw.githubusercontent.com/thodorakos/thodorakos/main/assets/header.svg?v=navy-green-1)
 
-[![LinkedIn](assets/linkedin.svg)](https://www.linkedin.com/in/thodoris-nikaris-a8708b277/)
-[![Email](assets/email.svg)](mailto:thodoris.nikaris@gmail.com)
+[![LinkedIn](https://raw.githubusercontent.com/thodorakos/thodorakos/main/assets/linkedin.svg?v=navy-green-1)](https://www.linkedin.com/in/thodoris-nikaris-a8708b277/)
+[![Email](https://raw.githubusercontent.com/thodorakos/thodorakos/main/assets/email.svg?v=navy-green-1)](mailto:thodoris.nikaris@gmail.com)
 
 I'm looking for a junior DevOps role and am also interested in backend development.
 
@@ -10,7 +10,9 @@ repeatable deployments and service networking, with validation scripts to check
 that the services behave as expected. For backend work, I use Java with Spring
 Boot and Python with FastAPI.
 
-## <img src="assets/infrastructure.svg" width="24" height="24" alt="" /> DevOps projects
+Each project runs locally, and its README shows the setup steps and how to verify the result.
+
+## <img src="https://raw.githubusercontent.com/thodorakos/thodorakos/main/assets/infrastructure.svg?v=navy-green-1" width="24" height="24" alt="" /> DevOps projects
 
 ### [Go microservices on Kubernetes](https://github.com/thodorakos/k8s-go-microservices)
 
@@ -35,7 +37,7 @@ A validation script checks which connections are allowed or blocked.
 This Kubernetes lab has Python CRD controllers and an admission webhook.
 It also includes Helm deployment, ingress, and horizontal pod autoscaling.
 
-## <img src="assets/backend.svg" width="24" height="24" alt="" /> Backend projects
+## <img src="https://raw.githubusercontent.com/thodorakos/thodorakos/main/assets/backend.svg?v=navy-green-1" width="24" height="24" alt="" /> Backend projects
 
 ### [AEGIS: Natural disaster monitor](https://github.com/thodorakos/aegis)
 
