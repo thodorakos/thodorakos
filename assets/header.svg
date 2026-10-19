@@ -1,9 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="224" viewBox="0 0 1000 224" role="img" aria-labelledby="title description">
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="208" viewBox="0 0 1000 208" role="img" aria-labelledby="title description">
   <title id="title">Theodoros Nikaris</title>
-  <desc id="description">DevOps and backend development. A packet travels through the connected-service diagram for four seconds, then the illustration rests.</desc>
+  <desc id="description">DevOps and backend development. A packet loops through the connected-service diagram, with a brief pause between passes.</desc>
   <defs>
-    <linearGradient id="background" x1="0%" y1="0%" x2="100%" y2="100%">
+    <linearGradient id="background" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0" stop-color="#2B3A8F"/>
+      <stop offset=".58" stop-color="#2B3A8F"/>
       <stop offset="1" stop-color="#1E6E4D"/>
     </linearGradient>
     <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
@@ -12,43 +13,37 @@
   </defs>
   <style>
     .packet, .node-glow { opacity: 0; }
-    .packet { animation: packet-flow 4s linear 1; }
-    .node-glow { animation: node-pulse 600ms cubic-bezier(0.23, 1, 0.32, 1) 1; }
+    .packet { animation: packet-flow 5s linear infinite; }
+    .node-glow { animation: node-pulse 5s cubic-bezier(0.23, 1, 0.32, 1) infinite; }
     .glow-container { animation-delay: 50ms; }
     .glow-server { animation-delay: 1350ms; }
     .glow-api { animation-delay: 3350ms; }
     @keyframes packet-flow {
       0% { transform: translate(822px, 108px); opacity: 0; }
-      5% { opacity: 1; }
-      16% { transform: translate(864px, 108px); }
-      28% { transform: translate(864px, 64px); }
-      38%, 43% { transform: translate(902px, 64px); }
-      54% { transform: translate(864px, 64px); }
-      66% { transform: translate(864px, 108px); }
-      78% { transform: translate(864px, 152px); }
-      90% { transform: translate(902px, 152px); opacity: 1; }
-      100% { transform: translate(902px, 152px); opacity: 0; }
+      4% { opacity: 1; }
+      12.8% { transform: translate(864px, 108px); }
+      22.4% { transform: translate(864px, 64px); }
+      30.4%, 34.4% { transform: translate(902px, 64px); }
+      43.2% { transform: translate(864px, 64px); }
+      52.8% { transform: translate(864px, 108px); }
+      62.4% { transform: translate(864px, 152px); }
+      72% { transform: translate(902px, 152px); opacity: 1; }
+      80% { transform: translate(902px, 152px); opacity: 0; }
+      100% { transform: translate(822px, 108px); opacity: 0; }
     }
     @keyframes node-pulse {
-      0%, 100% { opacity: 0; }
-      40% { opacity: .65; }
-    }
-    @keyframes node-pulse-reduced {
-      0%, 100% { opacity: 0; }
-      40% { opacity: .2; }
+      0%, 12%, 100% { opacity: 0; }
+      4.8% { opacity: .65; }
     }
     @media (prefers-reduced-motion: reduce) {
-      .packet { animation: none; }
-      .node-glow { animation-name: node-pulse-reduced; animation-duration: 200ms; }
+      .packet, .node-glow { animation: none; }
     }
   </style>
   <g>
-    <rect width="1000" height="224" rx="16" fill="url(#background)"/>
-    <rect x="748" width="252" height="224" fill="url(#dots)"/>
-    <path d="M48 42h40" stroke="#F8F7F2" stroke-width="3" stroke-linecap="round"/>
-    <path d="M98 42h20" stroke="#F8F7F2" stroke-opacity=".5" stroke-width="3" stroke-linecap="round"/>
-    <text x="48" y="111" fill="#F8F7F2" font-family="DejaVu Sans, Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="-2">Theodoros Nikaris</text>
-    <text x="50" y="163" fill="#F8F7F2" font-family="DejaVu Sans, Arial, sans-serif" font-size="36">DevOps / Backend</text>
+    <rect width="1000" height="208" rx="16" fill="url(#background)"/>
+    <rect x="748" width="252" height="208" fill="url(#dots)"/>
+    <text x="48" y="100" fill="#F8F7F2" font-family="DejaVu Sans, Arial, sans-serif" font-size="62" font-weight="700" letter-spacing="-1.5">Theodoros Nikaris</text>
+    <text x="50" y="152" fill="#F8F7F2" font-family="DejaVu Sans, Arial, sans-serif" font-size="36">DevOps / Backend</text>
     <g stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
       <path d="M822 108h42V64h38" fill="none" stroke="#F8F7F2" stroke-opacity=".7"/>
       <path d="M864 108v44h38" fill="none" stroke="#F8F7F2" stroke-opacity=".7"/>
@@ -70,5 +65,5 @@
       <circle r="3" fill="#1E6E4D" stroke="#F8F7F2" stroke-width="1"/>
     </g>
   </g>
-  <rect x=".5" y=".5" width="999" height="223" rx="15.5" fill="none" stroke="#F8F7F2" stroke-opacity=".3"/>
+  <rect x=".5" y=".5" width="999" height="207" rx="15.5" fill="none" stroke="#F8F7F2" stroke-opacity=".3"/>
 </svg>
