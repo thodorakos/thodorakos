@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="136" height="44" viewBox="0 0 136 44" role="img" aria-labelledby="title">
   <title id="title">LinkedIn</title>
-  <rect x=".5" y=".5" width="135" height="43" rx="8" fill="#142e30" stroke="#477c72"/>
-  <text x="16" y="28" fill="#b6f1df" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="600">LinkedIn</text>
-  <path d="M111 18h7v7m0-7-9 9" fill="none" stroke="#b6f1df" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x=".5" y=".5" width="135" height="43" rx="8" fill="#2B3A8F" stroke="#F8F7F2" stroke-opacity=".35"/>
+  <text x="16" y="28" fill="#F8F7F2" font-family="DejaVu Sans, Arial, sans-serif" font-size="16" font-weight="600">LinkedIn</text>
+  <path d="M111 18h7v7m0-7-9 9" fill="none" stroke="#F8F7F2" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
