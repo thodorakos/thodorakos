@@ -11,30 +11,44 @@
 
 ## About
 
-Backend-leaning full-stack developer with a DevOps mindset. I build services
-the way I'd like to inherit them: **Spring Boot / FastAPI behind Nginx**,
-**PostgreSQL (incl. PostGIS)**, **Docker Compose-first deployments**, configs
-that fail loudly when a secret is missing, and histories that have never had
-anything to hide.
+DevOps-first engineer with backend experience. My natural habitat is the
+deploy pipeline: **containerized services (Docker/Compose), Kubernetes with
+Helm charts, and Cilium for eBPF networking** — running on Linux they actually
+care about. I ship Spring Boot / FastAPI backends the way I'd like to inherit
+them: configs that fail loudly when a secret is missing, atomic pushes, and
+histories that have never had anything to hide.
 
 Currently shipping **[AEGIS](https://github.com/thodorakos/aegis)** — a live
 natural-disaster monitor for Greece that ingests NASA EONET into PostGIS and
 surfaces geo-flagged events on a React globe.
 
-- What I care about: reproducible builds, sane `.env` boundaries, atomic pushes, boring deploys
-- Where I'm going: deeper infrastructure work — CI/CD pipelines, networking, Linux hardening
-- How I work: small audited increments, honest READMEs, admin panels that don't pretend to be production
+- What I care about: reproducible builds, sane `.env` boundaries, boring deploys, observable clusters
+- On the ops side: Docker → Kubernetes (Helm) → Cilium (CNI, eBPF), GitHub Actions CI/CD, systemd & Nginx
+- On the dev side: Spring Boot (Java 21), FastAPI (Python), PostgreSQL incl. PostGIS
+- How I work: small audited increments, honest READMEs, infrastructure documented in the repo
 
 ## The toolbox
 
 <div align="center">
 
+**Ops — where I start every project**
+
+![Docker](https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white)
+![Helm](https://img.shields.io/badge/Helm-0F1689?style=for-the-badge&logo=helm&logoColor=white)
+![Cilium](https://img.shields.io/badge/Cilium-eBPF_Networking-F04E23?style=for-the-badge&logo=cilium&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![GitHub Actions](https://img.shields.io/badge/CI%2FCD-GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
+
+**Backend**
+
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
-![Java](https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
+![Java 21](https://img.shields.io/badge/Java_21-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker_Compose-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL%20%2B%20PostGIS-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
+
+**Frontend**
 
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
 ![Astro](https://img.shields.io/badge/Astro-FF5D01?style=for-the-badge&logo=astro&logoColor=white)
