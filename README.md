@@ -68,6 +68,7 @@ surfaces geo-flagged events on a React globe.
 | [**diavgeia**](https://github.com/thodorakos/diavgeia) | Greek transparency-data dashboard experiment | FastAPI · Astro · PostgreSQL |
 | [**coffee_app**](https://github.com/thodorakos/coffee_app) | Coffee discovery: quiz, education, browser-local favorites | Astro · React |
 | [**spotify_shutdown**](https://github.com/thodorakos/spotify_shutdown) | Utility that schedules a Windows shutdown when the current Spotify track ends | Python · Spotify API (OAuth) |
+| [**Assignments_HY-548**](https://github.com/thodorakos/Assignments_HY-548_csd4965) | Distributed-systems coursework: Docker → Kubernetes → Helm chart with HPA + ingress → CRD controller & admission webhook operator | YAML · Helm · Python (k8s API) |
 
 ## The numbers
 
