@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="224" viewBox="0 0 1000 224" role="img" aria-labelledby="title description">
+  <title id="title">Theodoros Nikaris</title>
+  <desc id="description">DevOps and backend development, with a connected-service illustration in mint and lavender.</desc>
+  <defs>
+    <linearGradient id="background" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0" stop-color="#111827"/>
+      <stop offset="1" stop-color="#10232b"/>
+    </linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
+      <circle cx="10" cy="10" r="1" fill="#6a8a92" opacity=".25"/>
+    </pattern>
+  </defs>
+  <g>
+    <rect width="1000" height="224" rx="16" fill="url(#background)"/>
+    <rect x="748" width="252" height="224" fill="url(#dots)"/>
+    <path d="M48 42h40" stroke="#83e2c8" stroke-width="3" stroke-linecap="round"/>
+    <path d="M98 42h20" stroke="#bda9f0" stroke-width="3" stroke-linecap="round"/>
+    <text x="48" y="111" fill="#f1f5f9" font-family="DejaVu Sans, Arial, sans-serif" font-size="64" font-weight="700" letter-spacing="-2">Theodoros Nikaris</text>
+    <text x="50" y="163" font-family="DejaVu Sans, Arial, sans-serif" font-size="36" xml:space="preserve"><tspan fill="#99e8d4">DevOps</tspan><tspan fill="#8a9daf"> / </tspan><tspan fill="#d0c1f5">Backend</tspan></text>
+    <g stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M822 108h42V64h38" fill="none" stroke="#69b9a7"/>
+      <path d="M864 108v44h38" fill="none" stroke="#9a8ec5"/>
+      <circle cx="864" cy="108" r="4" fill="#b9d0d7" stroke="#16333a"/>
+      <rect x="778" y="86" width="44" height="44" rx="10" fill="#142e30" stroke="#83e2c8"/>
+      <path d="m800 97 10 5v12l-10 5-10-5v-12zm-10 5 10 5 10-5m-10 5v12" fill="none" stroke="#99e8d4"/>
+      <rect x="902" y="42" width="44" height="44" rx="10" fill="#142e30" stroke="#83e2c8"/>
+      <path d="M915 57h18m-18 7h18m-18 7h10" stroke="#99e8d4"/>
+      <rect x="902" y="130" width="44" height="44" rx="10" fill="#29233e" stroke="#bda9f0"/>
+      <path d="m918 146-6 6 6 6m12-12 6 6-6 6m-4-15-4 18" fill="none" stroke="#d0c1f5"/>
+    </g>
+  </g>
+  <rect x=".5" y=".5" width="999" height="223" rx="15.5" fill="none" stroke="#344452"/>
+</svg>

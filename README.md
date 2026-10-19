@@ -1,53 +1,56 @@
-# Theodoros Nikaris
+# ![Theodoros Nikaris: DevOps & backend development](assets/header.svg)
 
-**DevOps & Backend Development**
+[![LinkedIn](assets/linkedin.svg)](https://www.linkedin.com/in/thodoris-nikaris-a8708b277/)
+[![Email](assets/email.svg)](mailto:thodoris.nikaris@gmail.com)
 
-Open to junior DevOps and backend development opportunities.
+I'm looking for a junior DevOps role and am also interested in backend development.
 
-[LinkedIn](https://www.linkedin.com/in/thodoris-nikaris-a8708b277/) · [Email](mailto:thodoris.nikaris@gmail.com)
+I build containerized services and work with Kubernetes. My projects focus on
+repeatable deployments and service networking, with validation scripts to check
+that the services behave as expected. For backend work, I use Java with Spring
+Boot and Python with FastAPI.
 
-I build containerized services and Kubernetes projects, focusing on reproducible
-deployments, service networking, and validation scripts that check actual behavior.
-My backend work uses Java with Spring Boot and Python with FastAPI.
+## <img src="assets/infrastructure.svg" width="24" height="24" alt="" /> DevOps projects
 
-## DevOps projects
+### [Go microservices on Kubernetes](https://github.com/thodorakos/k8s-go-microservices)
 
-### [Go Microservices on Kubernetes](https://github.com/thodorakos/k8s-go-microservices)
+A Helm chart deploys two Go services built with multi-stage Dockerfiles.
+The setup includes service discovery and health probes, plus an optional
+canary routing demo.
 
-Two Go services packaged with multi-stage Docker builds and a Helm chart.
-Includes service discovery, health probes, and an optional canary routing demo.
+### [FastAPI autoscaling](https://github.com/thodorakos/k8s-fastapi-autoscaling)
 
-### [FastAPI Autoscaling](https://github.com/thodorakos/k8s-fastapi-autoscaling)
+Kubernetes scales a FastAPI service based on CPU usage. A load generator drives
+the test, and the validation script checks that the service scales up and
+returns to one replica.
 
-CPU-based Kubernetes autoscaling for a FastAPI service. A load generator and
-validation script check scaling up under load and returning to one replica.
+### [Cilium network policies](https://github.com/thodorakos/k8s-cilium-network-policies)
 
-### [Cilium Network Policies](https://github.com/thodorakos/k8s-cilium-network-policies)
+Cilium enforces default-deny networking for a three-tier demo. The policies
+explicitly allow service and DNS traffic and account for kubelet probes.
+A validation script checks which connections are allowed or blocked.
 
-Default-deny networking for a three-tier demo, with explicit service and DNS rules,
-kubelet probe handling, and scripted checks for allowed and blocked traffic.
+### [Kubernetes operators & automation](https://github.com/thodorakos/Assignments_HY-548_csd4965)
 
-### [Kubernetes Operators & Automation](https://github.com/thodorakos/Assignments_HY-548_csd4965)
+This Kubernetes lab has Python CRD controllers and an admission webhook.
+It also includes Helm deployment, ingress, and horizontal pod autoscaling.
 
-Kubernetes extension lab with Python CRD controllers and an admission webhook,
-plus Helm deployment, ingress, and horizontal pod autoscaling.
+## <img src="assets/backend.svg" width="24" height="24" alt="" /> Backend projects
 
-## Backend projects
+### [AEGIS: Natural disaster monitor](https://github.com/thodorakos/aegis)
 
-### [AEGIS — Natural Disaster Monitor](https://github.com/thodorakos/aegis)
+AEGIS ingests NASA EONET events into PostgreSQL/PostGIS and flags events in
+Greece. Its FastAPI backend provides filtering and summary APIs. Docker Compose
+runs the API, database, and React interface together.
 
-FastAPI service that ingests NASA EONET events into PostgreSQL/PostGIS, flags
-events in Greece, and exposes filtering and summary APIs. Docker Compose runs
-the API, database, and React interface together.
+### [Private Dining: Reservation system](https://github.com/thodorakos/private_dining)
 
-### [Private Dining — Reservation System](https://github.com/thodorakos/private_dining)
+The reservation system has a Spring Boot API and a PostgreSQL database.
+The API uses JWT authentication, validates bookings, and protects administration
+endpoints. Docker Compose runs the backend and React client for local use.
 
-Spring Boot API with JWT authentication, booking validation, and protected
-administration endpoints. PostgreSQL persistence, a React client, and Docker
-Compose for local setup.
+## Tools
 
-## Core tools
-
-- **Infrastructure:** Linux, Docker, Docker Compose, Kubernetes, Helm, Cilium
-- **Automation:** Git, GitHub Actions, Bash
-- **Backend:** Java, Spring Boot, Python, FastAPI, PostgreSQL, PostGIS
+- Infrastructure: Linux, Docker, Docker Compose, Kubernetes, Helm, Cilium
+- Automation: Git, GitHub Actions, Bash
+- Backend: Java, Spring Boot, Python, FastAPI, PostgreSQL, PostGIS
