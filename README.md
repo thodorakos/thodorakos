@@ -16,14 +16,16 @@ Boot and Python with FastAPI.
 ## <img src="https://raw.githubusercontent.com/thodorakos/thodorakos/main/assets/infrastructure.svg?v=navy-green-2" width="20" height="20" alt="" /> DevOps projects
 
 [**Go microservices on Kubernetes**](https://github.com/thodorakos/k8s-go-microservices)<br>
-A Helm chart deploys two Go services built with multi-stage Dockerfiles.
-The setup includes service discovery and health probes, plus an optional
-canary routing demo.
+A Helm chart deploys two Go services built with multi-stage Dockerfiles and
+includes service discovery, health probes, an optional canary routing demo,
+and Prometheus and Grafana. The validation script checks both the routing
+and the metrics.
 
 [**FastAPI autoscaling**](https://github.com/thodorakos/k8s-fastapi-autoscaling)<br>
-Kubernetes scales a FastAPI service based on CPU usage. A load generator drives
-the test, and the validation script checks that the service scales up and
-returns to one replica.
+Kubernetes scales a FastAPI service based on CPU usage. A load generator
+drives the test, the validation script checks that the service scales to
+four replicas and back to one, and Prometheus and Grafana record the
+metrics during the test.
 
 [**Cilium network policies**](https://github.com/thodorakos/k8s-cilium-network-policies)<br>
 Cilium enforces default-deny networking for a three-tier demo. The policies
@@ -50,6 +52,6 @@ endpoints. Docker Compose runs the backend and React client for local use.
 
 | Area | Tools |
 | :--- | :--- |
-| Infrastructure | Linux · Docker · Docker Compose · Kubernetes · Helm · Cilium |
+| Infrastructure | Linux · Docker · Docker Compose · Kubernetes · Helm · Cilium · Prometheus · Grafana |
 | Automation | Git · GitHub Actions · Bash |
 | Backend | Java · Spring Boot · Python · FastAPI · PostgreSQL · PostGIS |
